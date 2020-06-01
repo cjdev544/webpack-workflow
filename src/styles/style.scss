@@ -1,0 +1,23 @@
+html { box-sizing: border-box; }
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: {
+        color: red;
+        repeat: repeat;
+        image: url('../assets/galery/dilan.jpg');
+        size: 10rem;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
